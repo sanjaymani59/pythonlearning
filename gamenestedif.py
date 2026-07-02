@@ -23,6 +23,7 @@ for i in range(1,11):
 
 if secter_number==user_input:
      print(f"congrulation you guess the numbe  in {secter_number} in {i} attempts")
+     
 else:
     print("your guessing chance is over better luck next time")
     
