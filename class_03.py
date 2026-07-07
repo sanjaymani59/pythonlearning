@@ -8,6 +8,6 @@ class Car:
         print( f"{self.year} {self.brand} {self.model}") 
 
 
-car1 = Car("Toyota","Corolla",2020)
+car1 = Car("Tofyota","Corolla",2020)
 car1.display_info()  
         
