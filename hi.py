@@ -1,4 +1,12 @@
-n=[1,2,3,4,5]
-n.reverse()
+def findevenodd(a):
+    
 
-print(n)
+    
+    if(a%2==0):
+        print("even")
+
+    else:
+        print ("odd")
+d=5
+findevenodd(d)
+ 
