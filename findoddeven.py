@@ -7,6 +7,6 @@ def findevenodd(a):
 
     else:
         print ("odd")
-d=5
+d=int(input("enter a number:"))
 findevenodd(d)
  
