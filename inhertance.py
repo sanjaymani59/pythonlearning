@@ -1,13 +1,14 @@
-class dog:
+class animal:
 
-    class eat():
-        # def __init__(self):
+    def eat(self):
+       
             print("dog eating the food ")
 
-    class brak():
-        print("after eating dog started barking")
+class dog(animal):
+        def bark(self):
+               print("after eating dog started barking")
 
 dog1=dog()
 
 dog1.eat()
-dog1.brak()
+dog1.bark()
