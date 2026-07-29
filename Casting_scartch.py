@@ -8,10 +8,17 @@ area=pi*radus
 
 print("Aera:",+area) """
 
-bod=int(input("Enter you age:"))
+""" bod=int(input("Enter you age:"))
 
 year=2026
 
 age=year-bod
 
-print (age)
+print (age) """
+
+
+celsius=float(input("Enter the cesces:"))
+
+fahrenheit=(celsius*9/5)+32
+
+print("the fahrenheit:" ,fahrenheit)
