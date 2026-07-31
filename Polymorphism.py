@@ -1,4 +1,5 @@
-class car:
+""" class car:
+
     def move(self):
         print("car is moving")
 
@@ -14,4 +15,25 @@ class got:
 var=[car(),bus(),got()]
 
 for vars in var:
-    vars.move()
+    vars.move() """
+
+class payment:
+    def pay(self):
+        pass
+
+class googlepay:
+    def pay(self):
+        print("payment made using googlepay")
+
+class phonepay:
+    def pay(self):
+        print("payment mabe using phonepay")
+class cared:
+    def pay(self):
+        print ("payment mabe using card")
+
+payments=[googlepay(),phonepay(),cared()]
+
+
+for payment in payments:
+    payment.pay()
