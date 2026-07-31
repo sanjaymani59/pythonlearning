@@ -17,7 +17,7 @@ var=[car(),bus(),got()]
 for vars in var:
     vars.move() """
 
-class payment:
+""" class payment:
     def pay(self):
         pass
 
@@ -36,4 +36,18 @@ payments=[googlepay(),phonepay(),cared()]
 
 
 for payment in payments:
-    payment.pay()
+    payment.pay() """
+
+
+class A:
+    def action(self):
+        print("Action A")
+
+class B:
+    def action(self):
+        print("Action B")
+
+objects=[A(),B()]
+
+for obj in objects:
+    obj.action()
