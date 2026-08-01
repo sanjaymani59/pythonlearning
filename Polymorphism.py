@@ -39,7 +39,7 @@ for payment in payments:
     payment.pay() """
 
 
-class A:
+""" class A:
     def action(self):
         print("Action A")
 
@@ -50,4 +50,16 @@ class B:
 objects=[A(),B()]
 
 for obj in objects:
-    obj.action()
+    obj.action() """
+
+# method overriding
+class parent:
+    def name(self):
+        print("Hello im sam")
+
+class chiled(parent):
+    def name(self):
+        print("Hello im son of sam")
+
+hello=chiled()
+hello.name()
