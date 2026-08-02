@@ -53,13 +53,17 @@ for obj in objects:
     obj.action() """
 
 # method overriding
-class parent:
-    def name(self):
-        print("Hello im sam")
+# class parent:
+#     def name(self):
+#         print("Hello im sam")
 
-class chiled(parent):
-    def name(self):
-        print("Hello im son of sam")
+# class chiled(parent):
+#     def name(self):
+#         print("Hello im son of sam")
 
-hello=chiled()
-hello.name()
+# hello=chiled()
+# hello.name()
+
+
+
+    
