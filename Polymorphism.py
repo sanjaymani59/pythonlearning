@@ -66,4 +66,27 @@ for obj in objects:
 
 
 
+class Circle:
+        def area(self):
+
+         radius=5
+
+         print("Radius:",3.14*radius*radius)
+
+class Rectangle:
+        def area(self):
+             
+         length=6
+         breath=5
+         print("Rectangle:", length*breath)
+
+class Square:
+         def area(self):
+          side=5
+          print("Square:",side*side)
+
+shapes=[Circle(),Rectangle(),Square()]
+
+for shape in shapes:
+    shape.area()
     
