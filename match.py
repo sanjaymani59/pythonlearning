@@ -1,4 +1,4 @@
-name=int(input("Enter The Number Between(1-7):"))
+""" name=int(input("Enter The Number Between(1-7):"))
 
 match name:
     case 1:
@@ -19,6 +19,20 @@ match name:
 
     case 7:
         print("sunday")
+
+    case _:
+        print("invalide") """
+
+
+
+hello=input("enter any string:")
+
+match hello:
+    case "A":
+        print("hello to A")
+
+    case "B":
+        print("hello to B")
 
     case _:
         print("invalide")
