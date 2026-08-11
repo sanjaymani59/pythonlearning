@@ -1,4 +1,4 @@
-secret =55
+""" secret =55
 
 num=int (input("Enter any number :"))
 
@@ -9,4 +9,7 @@ elif(num<secret):
     print("your numer is too small")
 else:
     print("your number is too big")
+     """
+
+
     
