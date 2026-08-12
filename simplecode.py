@@ -1,4 +1,4 @@
-out=True
+""" out=True
 
 if out:
     print("hello from dello")
@@ -7,3 +7,10 @@ else:
     print("go go buy")
 
 print("good buy")
+ """
+
+
+for i in range(1,6):
+    for j in range(i):
+        print("*",end="")
+    print()
