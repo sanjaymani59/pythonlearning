@@ -1,4 +1,4 @@
-def cal_tax(price,tax):
+""" def cal_tax(price,tax):
     amount=price*tax
 
     total=price+amount
@@ -9,3 +9,8 @@ def cal_tax(price,tax):
 final_tax= cal_tax(450,5)
 
 print (f"your tax is: ${final_tax}")
+ """
+
+
+check = lambda x:"pos" if x>0 else "neg"
+print (check(10))
