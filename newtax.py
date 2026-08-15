@@ -12,5 +12,8 @@ print (f"your tax is: ${final_tax}")
  """
 
 
-check = lambda x:"pos" if x>0 else "neg"
-print (check(10))
+""" check = lambda x:"pos" if x>0 else "neg"
+print (check(10)) """
+
+check=lambda x:"even " if x%2==0 else "odd"
+print(check(5))
