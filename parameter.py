@@ -50,12 +50,34 @@ print(result) """
 
 ## even or odd
 
-def check_even(number):
+""" def check_even(number):
     if number %2==0:
         return "even"
     else:
         return "odd"
-print(check_even(49))
+print(check_even(49)) """
 
+""" 
+
+def larger(a,b):
+    if a>b:
+        return a
+    else:
+        return b
+git a print(larger(10,34)) """
+
+
+
+def larthree(a,b,c):
+
+    if a>=b and a>c:
+        return a
+    elif b>=a and b>=c:
+        return b
+
+    else:
+        return c
+
+print(larthree(34,53,56))
 
 
