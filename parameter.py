@@ -96,7 +96,7 @@ n=int(input("Enter the number:"))
 print("factorial:",factorial(n)) """
 
 
-def calculator(a,b,operator):
+""" def calculator(a,b,operator):
 
     if operator =="+":
         return a+b
@@ -124,4 +124,11 @@ operator=input("Enter operator(+,_,*,/")
 
 result= calculator(a,b,operator)
 
-print("result:",result)
+print("result:",result) """
+
+def multi(num):
+    for i in range(1,11):
+        print(num,"X",i,"=",i*num)
+
+num=int(input("Enter the number:"))
+multi(num)
