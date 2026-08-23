@@ -83,7 +83,7 @@ print(larthree(34,53,56)) """
 
 ##fraction
 
-def factorial(n):
+""" def factorial(n):
     result= 1
 
     for i in range(1,n+1):
@@ -93,6 +93,35 @@ def factorial(n):
     return result
 
 n=int(input("Enter the number:"))
-print("factorial:",factorial(n))
+print("factorial:",factorial(n)) """
 
 
+def calculator(a,b,operator):
+
+    if operator =="+":
+        return a+b
+
+    elif operator =="-":
+        return a-b
+    elif operator =="*":
+        return a*b
+
+    elif operator =="/":
+
+        if b !=0:
+
+            return a/b
+        else: 
+            return "connot divided by zero"
+
+    else:
+        return "invalide operator"
+
+
+a=float(input("enter the number :"))
+b=float(input("enter the number :"))
+operator=input("Enter operator(+,_,*,/")
+
+result= calculator(a,b,operator)
+
+print("result:",result)
