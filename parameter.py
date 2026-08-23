@@ -68,7 +68,7 @@ git a print(larger(10,34)) """
 
 
 
-def larthree(a,b,c):
+""" def larthree(a,b,c):
 
     if a>=b and a>c:
         return a
@@ -78,6 +78,21 @@ def larthree(a,b,c):
     else:
         return c
 
-print(larthree(34,53,56))
+print(larthree(34,53,56)) """
+
+
+##fraction
+
+def factorial(n):
+    result= 1
+
+    for i in range(1,n+1):
+
+        result *=i
+
+    return result
+
+n=int(input("Enter the number:"))
+print("factorial:",factorial(n))
 
 
