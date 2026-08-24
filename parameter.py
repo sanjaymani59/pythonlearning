@@ -135,7 +135,7 @@ multi(num) """
 
 
 
-def cal_sum(n):
+""" def cal_sum(n):
     total =0
 
     for i in range (1,n+1):
@@ -143,4 +143,27 @@ def cal_sum(n):
     return total
 
 n=int(input("Enter number :"))
-print("sum",cal_sum(n))
+print("sum",cal_sum(n)) """
+
+
+def cal_dis(amount):
+    if amount > 5000:
+        dis =amount *0.20
+
+    elif amount >= 2000:
+        dis =amount *.10
+
+    else:
+        dis = 0
+
+    return dis
+
+amount=float(input("Enter the num:"))
+
+diss=cal_dis(amount)
+
+fin_amount= amount-diss
+
+print("dis",diss4)
+print("fin_amount",fin_amount
+      )
