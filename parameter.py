@@ -126,9 +126,21 @@ result= calculator(a,b,operator)
 
 print("result:",result) """
 
-def multi(num):
+""" def multi(num):
     for i in range(1,11):
         print(num,"X",i,"=",i*num)
 
 num=int(input("Enter the number:"))
-multi(num)
+multi(num) """
+
+
+
+def cal_sum(n):
+    total =0
+
+    for i in range (1,n+1):
+        total+=i
+    return total
+
+n=int(input("Enter number :"))
+print("sum",cal_sum(n))
