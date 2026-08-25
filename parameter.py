@@ -146,7 +146,7 @@ n=int(input("Enter number :"))
 print("sum",cal_sum(n)) """
 
 
-def cal_dis(amount):
+""" def cal_dis(amount):
     if amount > 5000:
         dis =amount *0.20
 
@@ -166,4 +166,4 @@ fin_amount= amount-diss
 
 print("dis",diss4)
 print("fin_amount",fin_amount
-      )
+      )  """
