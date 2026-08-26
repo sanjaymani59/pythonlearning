@@ -38,7 +38,35 @@ print(newtext)
 
 print(text.count("a")) """
 
-text='helloaa'
+# text='helloaa'
 
-print(text.find('h'))
+# print(text.find('h'))
+
+# name=input("enter ypur name:")
+# print("hello,",name)
+
+# print("Length :",len(name))
+
+# print(name.upper)
+
+# word= "samsam"
+
+# # for n in word:
+# #     print (n)
+
+# count=0d
+
+# for n in word:
+#     count+=1
+# print("character:",count)
+
+
+word=input("enter any word:")
+count=0
+
+for i in word.lower():
+    if i in "aeiou":
+        count+=1
+print("vowles:",count)
+
 
