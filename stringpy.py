@@ -60,13 +60,35 @@ print(text.count("a")) """
 #     count+=1
 # print("character:",count)
 
-
+""" 
 word=input("enter any word:")
 count=0
 
 for i in word.lower():
     if i in "aeiou":
         count+=1
-print("vowles:",count)
+print("vowles:",count) """
+
+# consonants
+
+# word=input("enter any word:")
+# count=0
+
+# for ch in word.lower():
+
+#     if ch.isalpha() and ch not in 'aeiou':
+#         count +=1
+
+# print(count)
+
+
+word=input("enter any word:")
+
+if word==word[::-1]:
+    print("palindronme")
+
+else:
+    print("not palindrome")
+
 
 
