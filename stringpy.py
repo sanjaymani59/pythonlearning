@@ -82,13 +82,39 @@ print("vowles:",count) """
 # print(count)
 
 
-word=input("enter any word:")
+# word=input("enter any word:")
 
-if word==word[::-1]:
-    print("palindronme")
+# if word==word[::-1]:
+#     print("palindronme")
 
+# else:
+#     print("not palindrome")
+
+# 32. Reverse Without [::-1]
+
+# word =input("enter the word:")
+
+# reverse ='' 
+
+# for ch in word:
+#     reverse = ch + (word[::-1])
+# print('reversed:',reverse)
+
+# 24. Check Character
+
+text0=input("Enter the text:")
+text1=input('ente the text:')
+if text0==text1:
+    print("both are same")
 else:
-    print("not palindrome")
+    print("Different")
+
+# if 'a' in text :
+#     print('text is a is found')
+
+# else:
+#     print('letter a is not found')
+
 
 
 
