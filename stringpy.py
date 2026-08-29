@@ -102,12 +102,12 @@ print("vowles:",count) """
 
 # 24. Check Character
 
-text0=input("Enter the text:")
-text1=input('ente the text:')
-if text0==text1:
-    print("both are same")
-else:
-    print("Different")
+# text0=input("Enter the text:")
+# text1=input('ente the text:')
+# if text0==text1:
+#     print("both are same")
+# else:
+#     print("Different")
 
 # if 'a' in text :
 #     print('text is a is found')
@@ -115,6 +115,11 @@ else:
 # else:
 #     print('letter a is not found')
 
+
+sent= input("enter sent:")
+
+words= sent.split()
+print("num of words:",len(words))
 
 
 
