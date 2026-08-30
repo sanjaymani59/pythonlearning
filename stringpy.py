@@ -116,10 +116,14 @@ print("vowles:",count) """
 #     print('letter a is not found')
 
 
-sent= input("enter sent:")
+# sent= input("enter sent:")
 
-words= sent.split()
-print("num of words:",len(words))
+# words= sent.split()
+# print("num of words:",len(words))
 
 
+text="hello sir"
+print(text.replace("",""))
 
+languag= text.split()
+print(languag)
