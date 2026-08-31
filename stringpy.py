@@ -122,8 +122,21 @@ print("vowles:",count) """
 # print("num of words:",len(words))
 
 
-text="hello sir"
-print(text.replace("",""))
+# text="hello sir"
+# print(text.replace("",""))
 
-languag= text.split()
-print(languag)
+# languag= text.split()
+# print(languag)
+
+# text = input("Ente The Text:")
+
+# if text.isalpha():
+#     print ("only alphabets")
+
+# else:l
+#     print("contains other characters")
+
+
+word =["apple","is ", "red"]
+words =" ".join(word)
+print(words)
