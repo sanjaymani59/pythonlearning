@@ -137,6 +137,22 @@ print("vowles:",count) """
 #     print("contains other characters")
 
 
-word =["apple","is ", "red"]
-words =" ".join(word)
-print(words)
+# word =["apple","is ", "red"]
+# words =" ".join(word)
+# print(words)
+
+
+word=["cat","window","python ","code","hello" ]
+
+filter_word=[w.upper() for w in word if len(w)>=4]
+
+print(filter_word)
+
+
+
+di_a={'a':1,'b':2}
+di_b={'b':3,'c':4}
+
+merge={**di_a,**di_b}
+
+print(merge)
