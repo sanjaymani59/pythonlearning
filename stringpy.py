@@ -142,17 +142,30 @@ print("vowles:",count) """
 # print(words)
 
 
-word=["cat","window","python ","code","hello" ]
+# word=["cat","window","python ","code","hello" ]
 
-filter_word=[w.upper() for w in word if len(w)>=4]
+# filter_word=[w.upper() for w in word if len(w)>=4]
 
-print(filter_word)
+# print(filter_word)
 
 
 
-di_a={'a':1,'b':2}
-di_b={'b':3,'c':4}
+# di_a={'a':1,'b':2}
+# di_b={'b':3,'c':4}
 
-merge={**di_a,**di_b}
+# merge={**di_a,**di_b}
 
-print(merge)
+# print(merge)
+
+
+
+deliver ="swiggy"
+
+def order():
+    print('curd rice')
+
+    def quentity():
+        print("5 ")
+    quentity()
+
+order()
