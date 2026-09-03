@@ -159,13 +159,31 @@ print("vowles:",count) """
 
 
 
-deliver ="swiggy"
+# deliver ="swiggy"
 
-def order():
-    print('curd rice')
+# def order():
+#     print('curd rice')
 
-    def quentity():
-        print("5 ")
-    quentity()
+#     def quentity():
+#         print("5 ")
+#     quentity()
 
-order()
+# order()
+
+
+amount= 3000
+
+tax = amount*0.10
+
+total = amount+tax
+
+print(total)
+
+
+if total>1000:
+
+    discount = total*0.10
+
+    total -= discount
+
+print(total)
