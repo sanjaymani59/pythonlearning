@@ -171,19 +171,29 @@ print("vowles:",count) """
 # order()
 
 
-amount= 3000
+# amount= 3000
 
-tax = amount*0.10
+# tax = amount*0.10
 
-total = amount+tax
+# total = amount+tax
 
-print(total)
+# print(total)
 
 
-if total>1000:
+# if total>1000:
 
-    discount = total*0.10
+#     discount = total*0.10
 
-    total -= discount
+#     total -= discount
 
-print(total)
+# print(total)
+
+
+text='python'
+
+rev=""
+
+for c in text:
+    rev=c+rev
+
+print(rev)
