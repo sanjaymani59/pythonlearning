@@ -189,11 +189,20 @@ print("vowles:",count) """
 # print(total)
 
 
-text='python'
+# text='python'
 
-rev=""
+# rev=""
 
-for c in text:
-    rev=c+rev
+# for c in text:
+#     rev=rev+c
 
-print(rev)
+# print(rev)
+
+
+
+total =0
+
+for i in range(1,10):
+    total+=i
+
+print("total:" ,total)
