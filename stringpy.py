@@ -200,9 +200,24 @@ print("vowles:",count) """
 
 
 
-total =0
+# total =0
 
-for i in range(1,10):
-    total+=i
+# for i in range(1,10):
+#     total+=i
 
-print("total:" ,total)
+# print("total:" ,total)
+
+
+
+def dup(inlist):
+    un=[]
+
+    for item in inlist:
+        if item not in un:
+            un.append(item)
+
+    return un
+num =[3,5,6,5,4,3,2]
+
+print(num)
+print(dup(num))
