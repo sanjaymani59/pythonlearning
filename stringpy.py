@@ -209,15 +209,55 @@ print("vowles:",count) """
 
 
 
-def dup(inlist):
-    un=[]
+# def dup(inlist):
+#     un=[]
 
-    for item in inlist:
-        if item not in un:
-            un.append(item)
+#     for item in inlist:
+#         if item not in un:
+#             un.append(item)
 
-    return un
-num =[3,5,6,5,4,3,2]
+#     return un
+# num =[3,5,6,5,4,3,2]
 
-print(num)
-print(dup(num))
+# print(num)
+# print(dup(num))
+# w="helloo"
+
+# d=len(w)-1
+# print(d)
+""" 
+# makes all first letter captial 
+word1="hello of My"
+
+word2="not A number"
+formating =f"{word1.title()}--{word2.title()}"
+print(formating)
+ """
+
+
+k# replacing 
+""" location ="delhi"
+new_location= location.replace("delhi","chennai")
+
+print(new_location) """
+
+
+# string splliting
+
+""" word = "hello to all my friends and students are present in room .at 005 and 0055"
+
+sp=word.split("at")[1].split("and") [0] .strip()
+
+print(sp) """
+
+
+# find exacet word 
+
+""" word=" all my friends and students are present in room"
+if "students" in word:
+    print("yes") """
+
+
+word=" all my friends and students are present in room"
+w=word.find("my")
+print(w)
