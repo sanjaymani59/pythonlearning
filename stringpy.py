@@ -235,7 +235,7 @@ print(formating)
  """
 
 
-k# replacing 
+# replacing 
 """ location ="delhi"
 new_location= location.replace("delhi","chennai")
 
@@ -258,6 +258,16 @@ if "students" in word:
     print("yes") """
 
 
-word=" all my friends and students are present in room"
-w=word.find("my")
-print(w)
+# word=" all my friends and students are present in room"
+# w=word.find("my")
+# print(w)
+
+
+mark=59
+attendance=45
+
+if mark >=59 and attendance>=44:
+    print("okay")
+else:
+    print("not alloweded")
+
