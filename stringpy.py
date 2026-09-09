@@ -263,11 +263,27 @@ if "students" in word:
 # print(w)
 
 
-mark=59
-attendance=45
+# mark=59
+# attendance=45
 
-if mark >=59 and attendance>=44:
+""" if mark >=59 and attendance>=44:
     print("okay")
 else:
-    print("not alloweded")
+    print("not alloweded") """
+
+
+# name="hello boy of boy"
+
+# inite= ''.join([word[0].upper() for word in name.split()])
+# print(inite)
+
+
+""" word="     airport    "
+s=word.strip()
+print(s) """
+
+w="hi i'm in dubai and americal at same time in a video conference"
+
+r=len(w.split(a))
+print(r)
 
