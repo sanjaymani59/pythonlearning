@@ -278,12 +278,26 @@ else:
 # print(inite)
 
 
-""" word="     airport    "
-s=word.strip()
-print(s) """
+# """ word="     airport    "
+# s=word.strip()
+# print(s) """
 
-w="hi i'm in dubai and americal at same time in a video conference"
+# w="hi i'm in dubai and americal at same time in a video conference"
 
-r=len(w.split(a))
-print(r)
+# r=len(w.split(a))
+# print(r)
 
+
+
+mark =50
+
+if mark>= 90:
+    print("A")
+
+elif mark>=70:
+    print("B")
+
+elif mark>=50:
+    print("C")
+else:
+    print("fail~")
