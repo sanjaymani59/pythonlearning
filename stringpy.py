@@ -288,7 +288,7 @@ else:
 # print(r)
 
 
-
+""" 
 mark =50
 
 if mark>= 90:
@@ -300,4 +300,19 @@ elif mark>=70:
 elif mark>=50:
     print("C")
 else:
-    print("fail~")
+    print("fail~") """
+
+
+age=18
+
+has_licence="yes"
+
+if age>=80:
+    if has_licence=="yes":
+        print("you drink ")
+
+    else:
+        print("go")
+
+else:
+    print("you young")
