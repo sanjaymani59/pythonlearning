@@ -3,11 +3,23 @@ file.write("\n sanjay mani is the own learner boy ")
 file.close() """
 
 
-t=int (input("enter num:"))
+""" t=int (input("enter num:"))
 
 print(f"\nmulti {t}):")
 
 for i in range(1,11):
     p=t*i
 
-    printf("{t}X{i}={p}")
+    printf("{t}X{i}={p}") """
+
+orr=1000
+days="sat"
+
+mem='gold'
+
+if(orr>=1000 and days in['sat','sum'] ) or mem == 'gold':
+
+    print("20% ,discount ")
+else:
+    print('no discount ')
+
