@@ -12,7 +12,7 @@ for i in range(1,11):
 
     printf("{t}X{i}={p}") """
 
-orr=1000
+""" orr=1000
 days="sat"
 
 mem='gold'
@@ -22,4 +22,21 @@ if(orr>=1000 and days in['sat','sum'] ) or mem == 'gold':
     print("20% ,discount ")
 else:
     print('no discount ')
+ """
+
+
+""" name=['nila','hello','divya','deepa']
+for i in name:
+    print(i.upper()) """
+
+
+correct=234
+enter=''
+
+# enter=int(input("enter:"))
+
+while enter!=correct:
+    enter=int(input("enter:"))
+
+print("granted")
 
