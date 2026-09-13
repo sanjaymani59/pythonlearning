@@ -30,7 +30,7 @@ for i in name:
     print(i.upper()) """
 
 
-correct=234
+""" correct=234
 enter=''
 
 # enter=int(input("enter:"))
@@ -38,5 +38,41 @@ enter=''
 while enter!=correct:
     enter=int(input("enter:"))
 
-print("granted")
+print("granted") """
 
+
+
+
+
+# name=['nila','hello','divya','deepa']
+
+# for name in name:
+#     print (name.upper())
+
+
+""" for i in range(11):
+
+    if i==5:
+        break   
+    print(i) """
+
+
+""" "for i in range(11):
+    if i==5:
+        continue
+    print(i)" """
+
+""" 
+for i in range(11):
+    pass
+ """
+
+count=5
+
+while count>0:
+    print(f'count{count}')
+    count -=1
+print("time")
+
+
+3:53~
