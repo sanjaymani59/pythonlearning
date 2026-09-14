@@ -67,12 +67,24 @@ for i in range(11):
     pass
  """
 
-count=5
+# count=5
 
-while count>0:
-    print(f'count{count}')
-    count -=1
-print("time")
+# while count>0:
+#     print(f'count{count}')
+#     count -=1
+# print("time")
 
 
-3:53~
+# 3:53~
+
+
+def add(*args):
+    total=0
+    for num in args:
+        total +=num
+    return total
+
+print(add(1,2,3,))
+
+
+
