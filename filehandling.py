@@ -78,13 +78,22 @@ for i in range(11):
 # 3:53~
 
 
-def add(*args):
-    total=0
-    for num in args:
-        total +=num
-    return total
+# def add(*args):
+#     total=0
+#     for num in args:
+#         total +=num
+#     return total
 
-print(add(1,2,3,))
+# print(add(1,2,3,))
 
 
 
+# 4:12
+
+
+def create(**kwargs):
+    print("user profile")
+    for key,value in kwargs.items():
+        print(f"{key}:{value}")
+
+create(name='san',age=33,job='jolly')
