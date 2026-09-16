@@ -91,9 +91,12 @@ for i in range(11):
 # 4:12
 
 
-def create(**kwargs):
+""" def create(**kwargs):
     print("user profile")
     for key,value in kwargs.items():
         print(f"{key}:{value}")
 
 create(name='san',age=33,job='jolly')
+
+
+4:16 """
