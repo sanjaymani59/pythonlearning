@@ -42,3 +42,13 @@ print(guess) """
 
 """ 17;26
 https://www.youtube.com/watch?v=yVl_G-F7m8c """
+
+
+
+
+
+
+# same to same to project 
+
+""" 17;26
+https://www.youtube.com/watch?v=yVl_G-F7m8c """        
