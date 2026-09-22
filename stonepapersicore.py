@@ -28,6 +28,6 @@ else:
 print(f'computer choice {c_choice}' )
 
     
-31;20
+""" 31;20
 
-https://youtu.be/yVl_G-F7m8c?si=AdHn0nWjZ9JCe8Sc
+https://youtu.be/yVl_G-F7m8c?si=AdHn0nWjZ9JCe8Sc """
