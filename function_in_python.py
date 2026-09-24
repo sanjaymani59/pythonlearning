@@ -26,3 +26,47 @@ print(x)
 print(y)
 print(z) """
 
+# Level 8 — Default Parameter
+
+""" def greet(name ='std'):
+    print("hello",name)
+
+greet()
+greet("sam") """
+
+
+# Level 10 — *args
+
+# Suppose you don't know how many numbers the user will give.
+
+# You can use *args.
+
+
+
+""" def add(*num):
+    total=0
+    for nums in num:
+        total=total+nums
+
+    return total
+
+
+print(add(10,34,45,))
+print(add(45,65,33,11)) """
+
+
+# Level 11 — **kwargs
+
+# **kwargs allows multiple keyword arguments.
+
+def std_detial(**detials):
+    for key,value in detials.items():
+        print(key," ",value)
+
+
+std_detial(
+    name="sam",
+    age=45,
+    dept="cse",
+    college="kkm"
+)
