@@ -59,7 +59,7 @@ print(add(45,65,33,11)) """
 
 # **kwargs allows multiple keyword arguments.
 
-def std_detial(**detials):
+""" def std_detial(**detials):
     for key,value in detials.items():
         print(key," ",value)
 
@@ -69,4 +69,32 @@ std_detial(
     age=45,
     dept="cse",
     college="kkm"
-)
+) """
+
+
+# Level 12 — Function Calling Another Function
+
+""" def get_total(a,b,c):
+    return a+b+c
+def get_average(total):
+    return total/3
+
+total=get_total(23,45,43)
+average=get_average(total)
+
+print(total)
+print(average) """
+
+# Level 13 — Lambda Function
+
+def square(x):
+    return x*x 
+
+square=lambda x:x*x
+
+total=square(5)
+print(total)
+
+
+multiply = lambda a,b:a*b
+print(multiply(9,4))
