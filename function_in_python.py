@@ -87,7 +87,7 @@ print(average) """
 
 # Level 13 — Lambda Function
 
-def square(x):
+""" def square(x):
     return x*x 
 
 square=lambda x:x*x
@@ -97,4 +97,24 @@ print(total)
 
 
 multiply = lambda a,b:a*b
-print(multiply(9,4))
+print(multiply(9,4)) """
+
+# Level 14 — Function with List
+
+def find_large(num):
+
+    large=num[0]
+
+    for nums in num:
+
+        if nums >large:
+
+            large=nums
+    return large
+
+
+
+
+num =[85,45,25,69,99]
+ans=find_large(num)
+print(ans)
