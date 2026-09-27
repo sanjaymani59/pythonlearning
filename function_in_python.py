@@ -101,7 +101,7 @@ print(multiply(9,4)) """
 
 # Level 14 — Function with List
 
-def find_large(num):
+""" def find_large(num):
 
     large=num[0]
 
@@ -117,4 +117,40 @@ def find_large(num):
 
 num =[85,45,25,69,99]
 ans=find_large(num)
-print(ans)
+print(ans) """
+
+# Level 15 — Function with Dictionary
+
+""" def cal_total(marks):
+    total=0
+
+    for mark in marks.values():
+        total+=mark
+
+    return total
+
+marks ={
+    "python": 45,
+    "java": 54,
+    "sql": 50
+}
+
+total=cal_total(marks)
+print(total) """
+
+# Level 16 — Recursion
+# Now we reach an important advanced concept.
+
+# A function can call itself.
+
+# This is called recursion.
+
+# Example: factorial.
+
+
+def fact(n):
+    if n==0:
+        return 1
+
+    return n*fact(n-1)
+print(fact(5))
