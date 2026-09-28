@@ -148,9 +148,60 @@ print(total) """
 # Example: factorial.
 
 
-def fact(n):
+""" def fact(n):
     if n==0:
         return 1
 
     return n*fact(n-1)
 print(fact(5))
+ """
+# Level 17 — Recursion + List
+
+""" def recursive(num):
+    if len(num)==0:
+        return 0
+
+    return num[0]+recursive(num[1:])
+
+num=[10,39,33,94,94]
+print(recursive(num)) """
+
+
+# Level 18 — Advanced: Function as an Argument
+
+""" def squre(x):
+    return x*x
+def process(num,operation):
+    resutl=[]
+
+    for num in nums:
+        resutl.append(operation(num))
+
+    return resutl
+
+nums=[1,2,3,4,5]
+
+ans=process(nums,squre)
+print(ans) """
+
+# Level 19 — Decorators
+
+# This is an advanced Python function concept.
+
+# A decorator allows us to add extra behavior to an existing function.
+
+
+""" def my_decorator():
+    def wrapper():
+        print("Before function")
+        function()
+        print("after function")
+    return wrapper
+
+@my_decorator
+def  hello():
+    print("hello python")
+
+hello() """
+
+
