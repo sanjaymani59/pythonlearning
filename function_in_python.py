@@ -205,3 +205,69 @@ def  hello():
 hello() """
 
 
+# Level 20 — Hard Example: Student Result System
+
+
+student=[{
+    "name": "Arun",
+    "marks":[45,45,67]
+},
+{
+    "name": "ram",
+    "marks":[68,45,67]
+},
+{
+    "name": "jau",
+    "marks":[40,89,90]
+},
+
+
+]
+
+
+def calculate_total(marks):
+    total =0
+
+    for mark in marks:
+
+        total +=mark
+    return total
+
+def calculate_average(marks):
+    total=calculate_total(marks)
+
+    return total/len(marks)
+
+def get_grade(average):
+    if average>=90:
+        return "A"
+    elif average>=80:
+        return "B"
+
+    elif average>=70:
+        return "c"
+    else:
+        return "f"
+
+def create_report(student):
+    name=student["name"]
+    marks=student["marks"]
+
+    total=calculate_total(marks)
+    average =calculate_average(marks)
+    grade=get_grade(average)
+
+    return {
+        "name":name,
+        "total":total,
+        "avg":average,
+        "grade":grade
+    }
+for students in student:
+    report=create_report(students)
+    print("\n name" , report["name"])
+    print("total" , report["total"])
+    print("average" , report["average"])
+    print("grade" , report["grade"])
+
+
