@@ -208,7 +208,7 @@ hello() """
 # Level 20 — Hard Example: Student Result System
 
 
-student=[{
+""" student =[{
     "name": "Arun",
     "marks":[45,45,67]
 },
@@ -260,7 +260,7 @@ def create_report(student):
     return {
         "name":name,
         "total":total,
-        "avg":average,
+        "average":average,
         "grade":grade
     }
 for students in student:
@@ -269,5 +269,5 @@ for students in student:
     print("total" , report["total"])
     print("average" , report["average"])
     print("grade" , report["grade"])
-
+ """
 
