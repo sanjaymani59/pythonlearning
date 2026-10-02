@@ -100,11 +100,50 @@ print(age)
 print(dept) """
 
 
-# LEVEL 9 — Set
+""" # LEVEL 9 — Set
 # A set stores unique values.
 
 num={10,20,30,30,50,40,50}
 print(num)
 
-# Duplicates are automatically removed.
+# Duplicates are automatically removed. """
 
+# Real use
+
+""" names=[
+    "Arun",
+    "Ragul",
+    "Arun",
+    'Aids'
+]
+
+unique_name=set(names)
+print(unique_name) """
+
+
+# LEVEL 10 — Set Operations
+# Sets become powerful when comparing groups.
+
+
+""" py_std={"Arun","Ragul","sam","kumar"}
+java_std={"Arun","jayam","sam","kumar"}
+# Students learning both
+print(py_std & java_std)
+# Students learning either subject
+print(py_std | java_std)
+# Students learning Python but not Java
+print(py_std - java_std)
+ """
+
+# LEVEL 11 — Dictionary
+# A dictionary stores:
+# key → value
+
+std={
+    "name":"monish ",
+    "age": 21,
+    "depatrment":"cse"
+}
+print(std)
+print(std["name"])
+print(std["age"])
