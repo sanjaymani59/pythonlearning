@@ -139,11 +139,92 @@ print(py_std - java_std)
 # A dictionary stores:
 # key → value
 
-std={
+""" std={
     "name":"monish ",
     "age": 21,
     "depatrment":"cse"
 }
+# print(std)
+# print(std["name"])
+# print(std["age"])
+
+# LEVEL 12 — Modify Dictionary
+
+std["age"]=25
+std["college"]="smm"
 print(std)
-print(std["name"])
-print(std["age"])
+ """
+# LEVEL 13 — Dictionary + Loop
+
+""" marks={
+    'python':85,
+    'java':78,
+    'dbms':90
+}
+for sub,mark in marks.items():
+    print(sub,":" ,mark) """
+
+# LEVEL 14 — Nested Data Structures
+
+""" students=[
+    {
+        'name':'ARUN',
+     'age':21,
+     'marks':85
+     },
+     {
+         'name':'Ruhul',
+         'age':20,
+         'marks':78
+     },
+     {
+         'name':'priya',
+         'age':21,
+         'marks': 92
+     }
+
+]
+print(students[2])
+ """
+
+
+# LEVEL 15 — Nested Dictionary
+
+""" students={
+    '101': {
+        'name':'arun',
+        'marks':80
+    },
+
+    '102':{
+        'name':'Ragul',
+        'marks':78
+
+    }
+}
+
+print(students['101']['name']) """
+
+# LEVEL 16 — List Comprehension
+
+""" numders=[1,2,3,4,5]
+squares=[]
+
+for number in numders:
+    squares.append(number *number)
+print(squares) """
+
+""" squares=[number*number for number in numders]
+print(squares)  """
+
+
+# LEVEL 17 — List Comprehension + Condition
+
+numbers=[1,2,3,4,5,6,7,8]
+evennum = [
+    number
+    for number in numbers
+    
+    if number %2==0
+    ]
+print(evennum)
