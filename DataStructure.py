@@ -220,11 +220,65 @@ print(squares)  """
 
 # LEVEL 17 — List Comprehension + Condition
 
-numbers=[1,2,3,4,5,6,7,8]
+""" numbers=[1,2,3,4,5,6,7,8]
 evennum = [
     number
     for number in numbers
     
     if number %2==0
     ]
-print(evennum)
+print(evennum) """
+
+# LEVEL 18 — Dictionary Comprehension
+
+""" numbers=[1,2,3,4,5,6,7,8]
+squres={
+    num:num*num
+    for num in numbers
+}
+print(squres) """
+
+
+# LEVEL 19 — Stack
+# A stack follows:
+# LIFO = Last In, First Out
+
+""" stack=[]
+stack.append('a')
+stack.append('b')
+stack.append('c')
+stack.append('d')
+
+print(stack)
+item=stack.pop()
+print('removed:',item)
+print(stack) """
+
+# LEVEL 20 — Queue
+# A queue follows:
+# FIFO = First In, First Out
+
+""" from collections import deque
+queue=deque()
+
+queue.append("a")
+queue.append("b")
+queue.append("c")
+queue.append("d")
+
+print(queue)
+
+person =queue.popleft()
+
+print("Removed :", person)
+print(queue) """
+
+
+# LEVEL 21 — Counter
+# Python provides useful data structures in collections.
+# Example: count characters.
+
+from collections import Counter
+text='apple'
+count =Counter(text)
+print(count)
