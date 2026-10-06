@@ -278,10 +278,10 @@ print(queue) """
 # Python provides useful data structures in collections.
 # Example: count characters.
 
-from collections import Counter
+""" from collections import Counter
 text='apple'
 count =Counter(text)
-print(count) 
+print(count) """ 
 
 
 # LEVEL 22 — Real Coding Problem: Frequency Count
@@ -291,3 +291,20 @@ numbers=[1,2,2,3,3,4,4,4,4]
 frequency = Counter(numbers)
 for number,count in frequency.items():
     print(number ,"append", count , "times") """
+
+# LEVEL 23 — defaultdict
+
+from collections import defaultdict
+
+st=[
+    ('arun','cse'),
+    ('ams','cse'),
+    ('sam','it')
+]
+
+group =defaultdict(list)
+
+for name,dept in st:
+    group[dept].append(name)
+
+print(dict(group))
