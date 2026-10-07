@@ -294,7 +294,7 @@ for number,count in frequency.items():
 
 # LEVEL 23 — defaultdict
 
-from collections import defaultdict
+""" from collections import defaultdict
 
 st=[
     ('arun','cse'),
@@ -307,4 +307,31 @@ group =defaultdict(list)
 for name,dept in st:
     group[dept].append(name)
 
-print(dict(group))
+print(dict(group)) """
+
+# LEVEL 24 — Heap / Priority Queue
+
+import heapq
+
+num=[10,34,90,30,92]
+
+heapq.heapify(num)
+print(num)
+
+smalles=heapq.heappop(num)
+print(smalles)
+
+# LEVEL 24 — Heap / Priority Queue
+
+st=[
+    {"name":'arun','mark':75},
+    {"name":'vin','mark':89},
+    {"name":'run','mark':85},
+]
+
+st.sort(key=lambda st:st["mark"],
+reverse=True
+)
+
+for std in st:
+    print(std)
