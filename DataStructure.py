@@ -311,7 +311,7 @@ print(dict(group)) """
 
 # LEVEL 24 — Heap / Priority Queue
 
-import heapq
+""" import heapq
 
 num=[10,34,90,30,92]
 
@@ -334,4 +334,6 @@ reverse=True
 )
 
 for std in st:
-    print(std)
+    print(std) """
+
+    
