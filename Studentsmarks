@@ -1,0 +1,9 @@
+name= input(""enter your name:)
+mark= int (input("enter your marks:"))
+
+print ("name:",name)
+
+if mark>=35
+     print("pass")
+else:
+     print ("fail")
