@@ -1,4 +1,4 @@
-print("HAND CRICKET GAME ")
+""" print("HAND CRICKET GAME ")
 
 score=0
 
@@ -20,3 +20,10 @@ while True:
         print("Total score",score)
 
 print("Game over")
+"""
+
+name= str("ram")
+day= str("15 days of leave ")
+year=int(2026)
+
+print( name,  day , year)
