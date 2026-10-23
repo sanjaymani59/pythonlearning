@@ -1,4 +1,4 @@
-import math 
+""" import math 
 
 num = float(input( "Enter a number: "))
 print("1. Square ")
@@ -29,3 +29,19 @@ elif choice ==5:
 
 else:
     print("invalie choice ")
+ """
+
+
+""" num =int(input("Enter the a number : "))
+
+for i in range(1,11):
+    print(num, "x" , i , num*i) """
+
+
+
+
+for num in range(1,11):
+    print("\n Table of " ,num)
+
+    for i in range(1,11):
+        print(num,"x", i, "-" , num*i )
