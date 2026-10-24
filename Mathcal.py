@@ -40,8 +40,35 @@ for i in range(1,11):
 
 
 
-for num in range(1,11):
+""" for num in range(1,11):
     print("\n Table of " ,num)
 
     for i in range(1,11):
-        print(num,"x", i, "-" , num*i )
+        print(num,"x", i, "-" , num*i ) """
+
+
+""" num=int(input("Enter an num:"))
+
+if num>60 and num <100:
+    if num%2==0:
+        print(str(num)+"it is even number ")
+
+else:
+    print(str(num)+ " is not a even number")
+ """
+
+
+str="Happy "
+
+print(str[0])
+
+print(str[:2])
+print(str[:3])
+print(str[:4])
+print(str)
+print(str[:-1])
+print(str[-2:-1])
+print(str[-3:-1])
+print(str[-4:-1])
+print(str[-5:-1])
+print(str[::1])
