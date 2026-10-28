@@ -33,12 +33,20 @@ while True:
     list.append(int(inp))
 print(list) """
 
-str="a,s,d,g,e,w,q"
-str1=""
+""" str="a,s,d,g,e,w,q" """
+# str1=
 
-for i in str: 
+""" for i in str: 
     if i ==",":
         continue
     str1=str1+i
 print(str1)
-    
+     """
+
+
+sti_in = 'hi it me and you '
+split_list = sti_in.split(' ')
+print(split_list)
+
+sti_join='-'.join(split_list)
+print(sti_join)
