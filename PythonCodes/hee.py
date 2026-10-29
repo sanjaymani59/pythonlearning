@@ -44,9 +44,30 @@ print(str1)
      """
 
 
-sti_in = 'hi it me and you '
+""" sti_in = 'hi it me and you '
 split_list = sti_in.split(' ')
 print(split_list)
 
 sti_join='-'.join(split_list)
-print(sti_join)
+print(sti_join) """
+
+
+
+""" users=[]
+user={"name":'ram',"age":35, "gender":"male"}
+n=users.append(user)
+user={"name":'ramya', 'age':36,"gender":'female'}
+n=users.append(user)
+print(users[0])  """
+
+
+""" def greet():
+    print("hello")
+greet() """
+
+def sum(num):
+    sum_result=num*(num+1)/2
+    return sum_result
+result=sum(11)
+print(result)
+print(sum(20))
