@@ -65,9 +65,31 @@ print(users[0])  """
     print("hello")
 greet() """
 
-def sum(num):
+""" def sum(num):
     sum_result=num*(num+1)/2
     return sum_result
 result=sum(11)
 print(result)
-print(sum(20))
+print(sum(20)) """
+
+
+# def welcome(name):
+#     print("welcome "+name)
+# welcome("Radha")
+""" num=4
+while num <=40:
+    print(num)
+    num+=4 """
+
+""" def total(num1,num2,num3):
+    return num1+num2+num3
+print(total(4,5,8)) """
+
+def total(*args):
+    sum =0
+
+    for i in args:
+        sum =sum+i
+
+    return sum
+print(total(4,5,5,9,7))
