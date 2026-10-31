@@ -85,11 +85,28 @@ while num <=40:
     return num1+num2+num3
 print(total(4,5,8)) """
 
-def total(*args):
+""" def total(*args):
     sum =0
 
     for i in args:
         sum =sum+i
 
     return sum
-print(total(4,5,5,9,7))
+print(total(4,5,5,9,7)) """
+""" 
+def print_addr(door_no,street_name):
+# print_addr(**kwargs):
+    for key,val in kwargs.items():
+        print(val)
+print_addr(door_no="94",street_name="RR nager") """
+
+
+def print_list(list):
+    # for i in list:
+    for i in range(0,len(list)):
+        list[i]=list[i].title()
+        print(list[i])
+
+names=['hema','vanu','kavitha']
+print_list(names)
+print(names)
