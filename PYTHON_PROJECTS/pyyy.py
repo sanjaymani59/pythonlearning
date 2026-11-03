@@ -1,4 +1,4 @@
-likes=0
+""" likes=0
 
 comment=[]
 
@@ -29,4 +29,17 @@ while True:
         break
 
     else:
-        print("Invalid choice")
+        print("Invalid choice") """
+
+
+print("hello")
+a =2
+b=8
+
+for i in range(1,a+1):
+    b=b*i
+
+for i in range(1,b):
+    print(b,"x",i,"-",b*i)
+
+print(b)
