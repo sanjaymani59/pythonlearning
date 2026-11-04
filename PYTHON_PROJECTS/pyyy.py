@@ -32,7 +32,7 @@ while True:
         print("Invalid choice") """
 
 
-print("hello")
+""" print("hello")
 a =2
 b=8
 
@@ -42,4 +42,35 @@ for i in range(1,a+1):
 for i in range(1,b):
     print(b,"x",i,"-",b*i)
 
-print(b)
+print(b) """
+
+""" def get_user_info():
+    user={'name':"vishnu",'age':39}
+    return user
+hi=get_user_info()
+print(hi) """
+
+# resursion
+
+
+""" def fact(num):
+    if num==0:
+        return 1
+    return num*fact (num-1)
+
+print(fact(4)) """
+
+
+""" def sq_num(num):
+    sq=[]
+    for i in range(1,num+1):
+        sq.append(i*i)
+    return sq """
+
+def sq_num_gen(num):
+    for i in range(1,num+1):
+        yield i*i
+su =sq_num_gen(10)
+for i in su:
+    print(i)
+# print (sq_num(10))
