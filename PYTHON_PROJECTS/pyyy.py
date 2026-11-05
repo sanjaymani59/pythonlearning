@@ -67,10 +67,23 @@ print(fact(4)) """
         sq.append(i*i)
     return sq """
 
-def sq_num_gen(num):
-    for i in range(1,num+1):
-        yield i*i
-su =sq_num_gen(10)
-for i in su:
-    print(i)
-# print (sq_num(10))
+# def sq_num_gen(num):
+#     for i in range(1,num+1):
+#         yield i*i
+# su =sq_num_gen(10)
+# for i in su:
+#     print(i)
+# # print (sq_num(10))
+
+
+class stu:
+    def __init__(self,name,age):
+        self.name=name
+        self.age=age
+
+    def display():
+        print(self.name)
+        print(self.age)
+
+s1.stu("sam",43)
+s1.display()
