@@ -76,14 +76,13 @@ print(fact(4)) """
 # # print (sq_num(10))
 
 
-class stu:
-    def __init__(self,name,age):
-        self.name=name
-        self.age=age
+# exception handling 
 
-    def display():
-        print(self.name)
-        print(self.age)
-
-s1.stu("sam",43)
-s1.display()
+try:
+    num=int(input("Enter numerator:"))
+    den=int(input("Enter denomintor:"))
+    result =num/den
+    # print(result)
+except Exception:
+    print("some error occrred ")
+print("bye")
