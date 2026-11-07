@@ -78,11 +78,19 @@ print(fact(4)) """
 
 # exception handling 
 
-try:
+""" try:
     num=int(input("Enter numerator:"))
     den=int(input("Enter denomintor:"))
     result =num/den
     # print(result)
 except Exception:
     print("some error occrred ")
-print("bye")
+
+finally:
+    print("hello")
+print("bye") """
+
+txt="helll ot all in world "
+with open("hello",'w') as file:
+    file.write(txt)
+print(file.closed)
