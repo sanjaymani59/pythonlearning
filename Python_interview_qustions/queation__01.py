@@ -25,11 +25,57 @@ print("largest number:",largest) """
 
 # 4. Count Vowels in a String
 
-text=input("Enter a string :")
+""" text=input("Enter a string :")
 
 count=0
 
 for ch in text:
     if ch.lower() in "aeiou":
         count+=1
-print("vowels ",count)
+print("vowels ",count) """
+# 1. Reverse a Number
+
+n=12345
+rev=0
+
+while n>0:
+    digit =n%10
+    rev=rev*10+digit
+
+    n=n//10
+
+print(rev)
+
+# 2. Check Even or Odd
+
+""" n=10
+if n%10==0:
+    print("even")
+else:
+    print("odd ") """
+
+    # 3. Check Prime Number
+n=7
+
+count=0
+
+""" for i in range(1,n+1):
+    if n%i==0:
+        count +=1
+
+if count ==2:
+    print("prime ")
+
+else:
+    print("not prime ")
+ """
+    # 4. Fibonacci Series
+
+a=0
+b=1
+
+for i in  range(10):
+    print(a,end=" ")
+    a,b=b,a+b
+
+
