@@ -71,11 +71,26 @@ else:
  """
     # 4. Fibonacci Series
 
-a=0
+""" a=0
 b=1
 
 for i in  range(10):
     print(a,end=" ")
-    a,b=b,a+b
+    a,b=b,a+b """
 
+# 5. Armstrong Number
+
+n=153
+temp=n
+total=0
+
+while temp>0:
+    digit=temp%10
+    total +=digit**3
+    temp//=10
+
+if total ==n:
+    print("armstrong")
+else:
+    print("not armstrong ")
 
