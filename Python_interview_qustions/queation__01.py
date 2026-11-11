@@ -84,7 +84,7 @@ n=153
 temp=n
 total=0
 
-while temp>0:
+""" while temp>0:
     digit=temp%10
     total +=digit**3
     temp//=10
@@ -93,4 +93,17 @@ if total ==n:
     print("armstrong")
 else:
     print("not armstrong ")
+ """
+# 6. Find Largest Number in a List
+
+a=[10,349,40,404,49]
+
+lar=a[0]
+
+
+for num in a:
+    if num >lar:
+        lar=num
+print(lar)
+ 
 
