@@ -96,7 +96,7 @@ else:
  """
 # 6. Find Largest Number in a List
 
-a=[10,349,40,404,49]
+""" a=[10,349,40,404,49]
 
 lar=a[0]
 
@@ -104,6 +104,19 @@ lar=a[0]
 for num in a:
     if num >lar:
         lar=num
-print(lar)
+print(lar) """
  
+# 7. Find Second Largest Number
 
+a=[10,30,34,67,76]
+
+first=second=float("-inf")
+
+for num in a:
+    if num>first:
+        second=first
+        first =num
+    elif first>num>second:
+        second=num
+
+print(second)
