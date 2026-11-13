@@ -112,11 +112,22 @@ a=[10,30,34,67,76]
 
 first=second=float("-inf")
 
-for num in a:
+""" for num in a:
     if num>first:
         second=first
         first =num
     elif first>num>second:
         second=num
 
-print(second)
+print(second) """
+# 8. Remove Duplicate Elements
+
+a=[1,2,3,4,5,6,1]
+
+result=[]
+
+for num in a:
+    if num not in result:
+        result.append(num)
+
+print(result)
