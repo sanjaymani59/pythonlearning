@@ -122,7 +122,7 @@ first=second=float("-inf")
 print(second) """
 # 8. Remove Duplicate Elements
 
-a=[1,2,3,4,5,6,1]
+""" a=[1,2,3,4,5,6,1]
 
 result=[]
 
@@ -130,4 +130,15 @@ for num in a:
     if num not in result:
         result.append(num)
 
-print(result)
+print(result) """
+
+
+# 9. Count Vowels
+
+text ="education " 
+count=0
+
+for ch in text:
+    if ch in "aeiou":
+        count+=1
+print(count)
