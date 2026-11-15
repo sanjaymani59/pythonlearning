@@ -135,10 +135,29 @@ print(result) """
 
 # 9. Count Vowels
 
-text ="education " 
+""" text ="education " 
 count=0
 
 for ch in text:
     if ch in "aeiou":
         count+=1
-print(count)
+print(count) """
+
+# 10. Check Palindrome String
+
+text = "madm"
+
+if text == text [::-1]:
+    print("palindrome")
+else:
+    print("Not palindrome")
+
+
+# 13. Count Character Frequency
+
+text="banana"
+
+for ch in set(text):
+    print(ch,text.count(ch))
+
+
