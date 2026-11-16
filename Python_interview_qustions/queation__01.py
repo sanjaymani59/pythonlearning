@@ -144,7 +144,7 @@ for ch in text:
 print(count) """
 
 # 10. Check Palindrome String
-
+""" 
 text = "madm"
 
 if text == text [::-1]:
@@ -158,6 +158,22 @@ else:
 text="banana"
 
 for ch in set(text):
-    print(ch,text.count(ch))
+    print(ch,text.count(ch)) """
 
+# 14. Swap Two Numbers
 
+""" a=10
+b=20
+
+a,b=b,a
+print(a,b)
+ """
+
+# 15. Find Missing Number
+
+a=[1,2,3,4,5]
+
+n=5
+
+miss=n*(n+1)//2-sum(a)
+print(miss)
