@@ -171,9 +171,28 @@ print(a,b)
 
 # 15. Find Missing Number
 
-a=[1,2,3,4,5]
+""" a=[1,2,3,4,5]
 
 n=5
 
 miss=n*(n+1)//2-sum(a)
-print(miss)
+print(miss) """
+
+
+# 1. Check Whether Two Strings Are Anagrams
+
+a='listen'
+b='silent'
+if sorted(a)==sorted(b):
+    print("Anagram")
+else:
+    print("not anagram")
+
+# 2. Find Common Elements in Two Lists
+
+a=[39,34,56,54]
+b=[45,65,34,23]
+
+for num in a:
+    if num in b:
+        print(num)
