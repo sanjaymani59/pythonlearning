@@ -4,6 +4,8 @@ avaliable=True
 if(avaliable):
     if(age>18):
         print("ticket is booked")
+    if(age>=45):
+        pront("super")
     else:
         print("your not a adult")
 
