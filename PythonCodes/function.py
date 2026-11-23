@@ -13,8 +13,11 @@ def name(name):
 
 name("sam")
 name("sandy")
+name("sannn")
 
 def add(a,b):
     print("add a+b:",a+b)
 add(59,59)
 add(89,48)
+add(90,67)
+add(77,77)
