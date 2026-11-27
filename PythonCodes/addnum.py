@@ -6,6 +6,7 @@ b=int(input("b:"))
 c=int(input("c:"))
 
 added=add(a,b)
+added=add(5,5)
 
 output=added*c
 
