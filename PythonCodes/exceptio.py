@@ -7,3 +7,5 @@ except ValueError:
     print("Invalide error")
 finally:
     print("program ends")
+finally:
+     print ("thanks ")
